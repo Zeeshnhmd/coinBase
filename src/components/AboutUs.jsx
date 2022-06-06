@@ -36,4 +36,9 @@ export default function AboutUs() {
 	);
 }
 
-const Section = styled.section``;
+const Section = styled.section`
+	.subtitle > h3,
+	.title > h2 {
+		color: var(--primary);
+	}
+`;

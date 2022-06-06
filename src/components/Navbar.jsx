@@ -31,6 +31,7 @@ const Nav = styled.nav`
 	margin: 3rem 5rem;
 	.brand {
 		h2 {
+			color: var(--primary);
 			font-size: 2.5rem;
 		}
 	}

@@ -1,11 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function Button({ text, icon = false, subduedButton = false }) {
+export default function Button({
+	text,
+	icon = false,
+	subduedButton = false,
+	change,
+}) {
+	const handleChange = () => {
+		change(text);
+	};
 	return (
 		<Div className="flex j-center a-center">
 			{icon ? (
 				<button
+					onClick={handleChange}
 					className={` flex j-center a-center gap-1 ${
 						subduedButton ? 'subduedButton' : ''
 					}`}
@@ -13,7 +22,10 @@ export default function Button({ text, icon = false, subduedButton = false }) {
 					{text} {icon}
 				</button>
 			) : (
-				<button className={`${subduedButton ? 'subduedButton' : ''}`}>
+				<button
+					onClick={handleChange}
+					className={`${subduedButton ? 'subduedButton' : ''}`}
+				>
 					{text}
 				</button>
 			)}

@@ -36,4 +36,10 @@ export default function Home() {
 		</Section>
 	);
 }
-const Section = styled.section``;
+const Section = styled.section`
+	.title {
+		h1 {
+			color: var(--primary);
+		}
+	}
+`;
