@@ -4,7 +4,9 @@ import AboutUs from './components/AboutUs';
 import DailyPrices from './components/DailyPrices';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import RoadMap from './components/RoadMap';
 import Services from './components/Services';
+import Signup from './components/Signup';
 
 export default function App() {
 	return (
@@ -14,6 +16,8 @@ export default function App() {
 			<DailyPrices />
 			<AboutUs />
 			<Services />
+			<Signup />
+			<RoadMap />
 			{/* <AntdPractice /> */}
 		</div>
 	);
