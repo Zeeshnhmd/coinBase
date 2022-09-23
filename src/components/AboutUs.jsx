@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FaChevronCircleRight } from 'react-icons/fa';
-import about from '../assets/about.png';
-import Button from './Button';
+import React from "react";
+import styled from "styled-components";
+import { FaChevronCircleRight } from "react-icons/fa";
+import about from "../assets/about.png";
+import Button from "./Button";
 
 export default function AboutUs() {
 	return (
@@ -23,7 +23,9 @@ export default function AboutUs() {
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
 							quo reiciendis facilis dicta? Temporibus quibusdam qui officiis
 							ex, ea velit, minus consectetur corrupti ab dolor distinctio
-							similique, ipsa facere ad!
+							similique, ipsa facere ad! Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Illum quaerat fugit corporis natus labore
+							voluptatum temporibus, aliquid itaque alias ratione.
 						</p>
 						<Button text="Start Earning" icon={<FaChevronCircleRight />} />
 					</div>
